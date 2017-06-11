@@ -1,1 +1,1 @@
-Lavish Events and Designs
+Lavish Events and Designs.
