@@ -1,733 +1,569 @@
 {{ partial "header" . }}
-
-
-
-    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!--
-    Stylesheets
-    =============================================
-
-    -->
-    <!-- Default stylesheets-->
-    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Template specific stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link href="/lib/animate.css/animate.css" rel="stylesheet">
-    <link href="/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/lib/et-line-font/et-line-font.css" rel="stylesheet">
-    <link href="/lib/flexslider/flexslider.css" rel="stylesheet">
-    <link href="/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
-    <link href="/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
-    <link href="/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
-    <!-- Main stylesheet and color file-->
-    <link href="/css/style.css" rel="stylesheet">
-    <link id="color-scheme" href="/css/colors/default.css" rel="stylesheet">
-  </head>
-  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-    <main>
-      <div class="page-loader">
-        <div class="loader">Loading...</div>
+<main>
+  <div class="page-loader">
+    <div class="loader">Loading...</div>
+  </div>
+  <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src="/images/skokie-logo.jpg" width="150"></a>
       </div>
-      <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src="/images/lavish-logo-white.png" width="150"></a>
+      <div class="collapse navbar-collapse" id="custom-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
+
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gallery</a>
+          </li>
+
+          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Features</a>
+
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
+
+          </li>
+
+          <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="home-section home-full-height bg-dark-30" id="home" data-background="/images/section-5.jpg">
+    <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=sEfqpNPzQbw', containment:'.home-section', startAt:-1, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:50}"></div>
+    <div class="video-controls-box">
+      <div class="container">
+        <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
+      </div>
+    </div>
+    <div class="titan-caption">
+      <div class="caption-content">
+        <div class="font-alt mb-30 titan-title-size-1">Welcome</div>
+        <div class="font-alt mb-40 titan-title-size-4">SKOKIE CAR WASH</div><a class="section-scroll btn btn-border-w btn-round" href="javascript:void(0)">Clean. Fast. Friendly.</a>
+      </div>
+    </div>
+  </section>
+  <div class="main">
+    <section class="module" id="alt-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h2 class="module-title font-alt">Our features</h2>
+            <div class="module-subtitle font-serif">Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus....</div>
           </div>
-          <div class="collapse navbar-collapse" id="custom-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Wedding Planner</a>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 col-lg-3">
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/car-shower.svg" width="36" /></div>
+              <h3 class="alt-features-title font-alt">CAR SHOWER WASH</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.</div>
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/car-wipe.svg" width="36" /></div>
+              <h3 class="alt-features-title font-alt">CAR INTERIOR CLEANING</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.</div>
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/car-wash.svg" width="36" /></div>
+              <h3 class="alt-features-title font-alt">MANUAL CAR WASH</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.</div>
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/car-wash-machine.svg" width="36" /></div>
+              <h3 class="alt-features-title font-alt">OIL WASH FOR HARD STAINS</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.</div>
+          </div>
+          <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+            <div class="alt-services-image align-center"><img src="/images/promo.jpg" alt="Feature Image" style="margin-top: 100px"></div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3">
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/automatic-wash-car.svg" width="36" /></div>
+              <h3 class="alt-features-title font-alt">Automatic Car Wash</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.</div>
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/car-foam.svg" width="36" /></div>
+              <h3 class="alt-features-title font-alt">CAR FOAM WASH</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.
+            </div>
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/carwash.svg" width="36" /></div>
+              <h3 class="alt-features-title font-alt">AUTOMATIC DRYING</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.
 
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Events</a>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Photography</a>
+            </div>
+            <div class="alt-features-item">
+              <div class="alt-features-icon"><img src="/images/icons/car-sparkle.svg" width="36" alt="Car Sparkle" /></div>
+              <h3 class="alt-features-title font-alt">POLISHING</h3>Felis elit euismod ac natoque habitant arcu condimentum parturient facilisis interdum a consectetur magna venenatis consectetur ut in mi.Scelerisque penatibus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="module bg-dark-60" data-background="/images/section-6-bg.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="video-box">
+              <div class="video-box-icon"><a class="video-pop-up" href="https://www.youtube.com/watch?v=sEfqpNPzQbw"><span class="icon-video"></span></a></div>
 
-              </li>
-
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Features</a>
-
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
-
-              </li>
-
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
-              </li>
-              <!--li.dropdown.navbar-cart-->
-              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown')-->
-              <!--        span.icon-basket-->
-              <!--        |-->
-              <!--        span.cart-item-number 2-->
-              <!--    ul.dropdown-menu.cart-list(role='menu')-->
-              <!--        li-->
-              <!--            .navbar-cart-item.clearfix-->
-              <!--                .navbar-cart-img-->
-              <!--                    a(href='#')-->
-              <!--                        img(src='/images/shop/product-9.jpg', alt='')-->
-              <!--                .navbar-cart-title-->
-              <!--                    a(href='#') Short striped sweater-->
-              <!--                    |-->
-              <!--                    span.cart-amount 2 &times; $119.00-->
-              <!--                    br-->
-              <!--                    |-->
-              <!--                    strong.cart-amount $238.00-->
-              <!--        li-->
-              <!--            .navbar-cart-item.clearfix-->
-              <!--                .navbar-cart-img-->
-              <!--                    a(href='#')-->
-              <!--                        img(src='/images/shop/product-10.jpg', alt='')-->
-              <!--                .navbar-cart-title-->
-              <!--                    a(href='#') Colored jewel rings-->
-              <!--                    |-->
-              <!--                    span.cart-amount 2 &times; $119.00-->
-              <!--                    br-->
-              <!--                    |-->
-              <!--                    strong.cart-amount $238.00-->
-              <!--        li-->
-              <!--            .clearfix-->
-              <!--                .cart-sub-totle-->
-              <!--                    strong Total: $476.00-->
-              <!--        li-->
-              <!--            .clearfix-->
-              <!--                a.btn.btn-block.btn-round.btn-font-w(type='submit') Checkout-->
-              <!--li.dropdown-->
-              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown') Search-->
-              <!--    ul.dropdown-menu(role='menu')-->
-              <!--        li-->
-              <!--            .dropdown-search-->
-              <!--                form(role='form')-->
-              <!--                    input.form-control(type='text', placeholder='Search...')-->
-              <!--                    |-->
-              <!--                    button.search-btn(type='submit')-->
-              <!--                        i.fa.fa-search-->
-              <!-- <li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">Documentation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="documentation.html#contact">Contact Form</a></li>
-                  <li><a href="documentation.html#reservation">Reservation Form</a></li>
-                  <li><a href="documentation.html#mailchimp">Mailchimp</a></li>
-                  <li><a href="documentation.html#gmap">Google Map</a></li>
-                  <li><a href="documentation.html#plugin">Plugins</a></li>
-                  <li><a href="documentation.html#changelog">Changelog</a></li>
-                </ul>
-              </li> -->
+                <!-- https://www.youtube.com/watch?v=TTxZj3DZiIM-->
+              <div class="video-title font-alt">Automatic Car Wash</div>
+              <div class="video-subtitle font-alt">Watch the video about our latest equipment</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="module pb-0" id="works">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h2 class="module-title font-alt">Our Works</h2>
+            <div class="module-subtitle font-serif"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class="filter font-alt" id="filters">
+              <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
+              <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Foam Wash</a></li>
+              <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Interior Cleaning</a></li>
+              <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Full Body Wash</a></li>
+              <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Automatic Car Wash</a></li>
             </ul>
           </div>
         </div>
-      </nav>
-      <section class="home-section home-full-height bg-dark-30" id="home" data-background="/images/section-5.jpg">
-        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=t4iLBTH1TK0', containment:'.home-section', startAt:1, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
-        <div class="video-controls-box">
-          <div class="container">
-            <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
-          </div>
-        </div>
-        <div class="titan-caption">
-          <div class="caption-content">
-            <div class="font-alt mb-30 titan-title-size-1">Welcome</div>
-            <div class="font-alt mb-40 titan-title-size-4">We are Lavish</div><a class="section-scroll btn btn-border-w btn-round" href="javascript:void(0)">Events and Designs</a>
-          </div>
-        </div>
-      </section>
-      <div class="main">
-        <section class="module" id="alt-features">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Our features</h2>
-                <div class="module-subtitle font-serif">Lavish Events is an Award-Winning, Non-Denominational performs memorable, personalized, and romantic wedding ceremonies and much more...</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><img src="/images/icons/catering.svg" width="36" /></div>
-                  <h3 class="alt-features-title font-alt">Catering & Menu Planning</h3>With our delicious Catering Meal Combinations, there’s sure to be something on our Catering Menu for everyone.</div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><img src="/images/icons/makeup.svg" width="28" /></div>
-                  <h3 class="alt-features-title font-alt">Hair Styling & Make Up</h3>Luxury in-home and on-site hair & makeup services for wedding and all types of events who are looking to feel exquisitely beautiful and wonderfully supported by an expert team that cares about the details.</div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-target"></span></div>
-                  <h3 class="alt-features-title font-alt">Celebrity Bookings</h3>We have been booking celebrities for different events for many years and our experience in working behind the scenes, with guidance and advice along the way, to ensure that all runs smoothly, brings peace of mind for clients and creates exciting and memorable events.</div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-tools"></span></div>
-                  <h3 class="alt-features-title font-alt">Design & Décor</h3>We work with agencies and brands to help them design and develop their events. We work alongside the internal teams and external partners to help infuse these programs with design, creative and storytelling.</div>
-              </div>
-              <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
-                <div class="alt-services-image align-center"><img src="/images/promo.png" alt="Feature Image" style="margin-top: 100px"></div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-camera"></span></div>
-                  <h3 class="alt-features-title font-alt">Photography & Videography</h3>Lavish Events has told so many unique wedding stories and tugged heart strings during wedding receptions in vivid, high-definition video with experience of many years.</div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-mobile"></span></div>
-                  <h3 class="alt-features-title font-alt">Event Concept Consulting</h3>We are dedicated to the art of distinctive celebrations. As you will find when exploring the rest of our website, our critically acclaimed portfolio speaks for itself.
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><img src="/images/icons/trumpet.svg" width="28" alt="Music" /></div>
-                  <h3 class="alt-features-title font-alt">Music & Entertainment</h3>We cater the region’s finest DJs, musicians, ensembles, bands and specialty entertainers so that we can provide you with the very best entertainment possible and within your budget.
-
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><img src="/images/icons/hotel.svg" width="28" alt="Hotel" /></div>
-                  <h3 class="alt-features-title font-alt">Hotel and Travel Arrangements</h3>Whether you are booking for an destination wedding or event travel arrangements. we will arrange  for the best prices and coordinate logistics through each step of your journey. where simultaneous booking of flights, rental cars and hotels is easy.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module bg-dark-60" data-background="/images/section-6-bg.jpg">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="video-box">
-                  <div class="video-box-icon"><a class="video-pop-up" href="https://www.youtube.com/watch?v=t4iLBTH1TK0"><span class="icon-video"></span></a></div>
-
-                    <!-- https://www.youtube.com/watch?v=TTxZj3DZiIM-->
-                  <div class="video-title font-alt">Events & Design</div>
-                  <div class="video-subtitle font-alt">Watch the video about our new eventmanagement</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module pb-0" id="works">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Our Works</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <ul class="filter font-alt" id="filters">
-                  <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Events</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Design</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Photography</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Floral Design</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <li class="work-item illustration webdesign"><a href="#">
-                <div class="work-image"><img src="/images/portfolio/grid-portfolio1.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Events</h3>
-                  <div class="work-descr">Stage Decorations</div>
-                </div></a></li>
-            <li class="work-item webdesign"><a href="#">
-                <div class="work-image"><img src="/images/portfolio/grid-portfolio2.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Events </h3>
-                  <div class="work-descr">Dining</div>
-                </div></a></li>
-            <li class="work-item webdesign " ><a href="#">
-                <div class="work-image"><img src="/images/portfolio/grid-portfolio3.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Events</h3>
-                  <div class="work-descr">Floral Decorations</div>
-                </div></a></li>
-            <li class="work-item illustration photography"><a href="#">
-                <div class="work-image"><img src="/images/portfolio/grid-portfolio4.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Events</h3>
-                  <div class="work-descr">Stage Decorations</div>
-                </div></a></li>
-            <li class="work-item illustration photography"><a href="#">
-                <div class="work-image"><img src="/images/portfolio/grid-portfolio5.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Events</h3>
-                  <div class="work-descr">Dining</div>
-                </div></a></li>
-            <li class="work-item photography"><a href="#">
-                <div class="work-image"><img src="/images/portfolio/grid-portfolio6.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Photography</h3>
-                  <div class="work-descr">Wedding Photography</div>
-                </div></a></li>
-          </ul>
-        </section>
-        <section class="module-small bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
-                <div class="callout-text font-alt">
-                  <h3 class="callout-title">Want to see more works?</h3>
-                  <p>We are always open to interesting projects.</p>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-2">
-                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="#">Lets view portfolio</a></div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module" id="services">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Our Services</h2>
-                <div class="module-subtitle font-serif">It is an honor to develop relationships with clients and their families during such a special, emotional time in their lives. There’s nothing more satisfying than being a part of the beginning of “happily ever after”!</div>
-              </div>
-            </div>
-            <div class="row multi-columns-row">
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><img src="/images/icons/charter-flight.svg" width="40"></div>
-                  <h3 class="features-title font-alt">Destination Wedding</h3>
-                  <p>A destination wedding has a lot of appeal; who does love the idea of bringing all their friends and family together at a picture-perfect locale. Whether you choose a location that’s near or far, familiar or uncharted, in the US or abroad</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><span class="icon-pictures"></span></div>
-                  <h3 class="features-title font-alt">Desing & prints</h3>
-                  <p>Whether it’s a wedding events or a modern upscale celebration, find an invitation as unique as the wedding of your dreams. We offer couples hundreds of options, including styles in every color, paper needs for any budget and on-trend designs that are guaranteed to make a lasting impact.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><img src="/images/icons/city-car.svg" width="60" /></div>
-                  <h3 class="features-title font-alt">Transportation</h3>
-                  <p>Whether you are booking for an destination wedding or event travel arrangements. we will arrange  for the best prices and coordinate logistics through each step of your journey. where simultaneous booking of flights, rental cars and hotels is easy.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><span class="icon-gift"></span></div>
-                  <h3 class="features-title font-alt">Arrival Gifts</h3>
-                  <p>It's a one-stop way to give meaningful gifts without getting caught up in the expensive "more stuff" trap that often bogs down even the most conscientious among us."<br/><br/><br/><br/></p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><span class="icon-wallet"></span></div>
-                  <h3 class="features-title font-alt">Budget Management</h3>
-                  <p>From creating your wedding budget to saving without sacrifice, we'll show you how it's done. Knowing all the costs up front will guarantee that your budget can actually cover it all.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><span class="icon-genius"></span></div>
-                  <h3 class="features-title font-alt">Floral Design</h3>
-                  <p>We are continuously searching for new tendencies of ideas and materials in the market to always propose and incorporate the most modern and over-the-top designs to our clients on a friendly budget.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><span class="icon-dial"></span></div>
-                  <h3 class="features-title font-alt">Jewelry & Ring Design</h3>
-                  <p>we cherish the moment a bride-to-be’s eyes sparkle with excitement as she beholds the jewelry that perfectly complements her wedding ensemble. Given below are stories of some brides and their choice of jewelry for their special day.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <div class="features-icon"><span class="icon-mic"></span></div>
-                  <h3 class="features-title font-alt">Lighting Design & Sound</h3>
-                  <p>By consistently creating new ideas within the company and integrating those with the ideas you bring in. Sound and Light it is our goal to provide an extraordinary entertainment experience created and produced with the energy and passion required to exceed all your expectations.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <hr class="divider-w">
-        <section class="module" id="team">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Meet Our Team</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
-                <div class="team-item">
-                  <div class="team-image"><img src="/images/team-1.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Hi all</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Team Member Name</div>
-                    <div class="team-role">Art Director</div>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
-                <div class="team-item">
-                  <div class="team-image"><img src="/images/team-2.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Good day</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Team Member Name</div>
-                    <div class="team-role">Creative director</div>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
-                <div class="team-item">
-                  <div class="team-image"><img src="/images/team-3.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Hello</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Team Member Name</div>
-                    <div class="team-role">Celebrity Organizer</div>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
-                <div class="team-item">
-                  <div class="team-image"><img src="/images/team-4.jpg" alt="Member Photo"/>
-                    <div class="team-detail">
-                      <h5 class="font-alt">Yes, it's me</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
-                    </div>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Team Member Name</div>
-                    <div class="team-role">Event Organizer</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="/images/testimonial_bg.jpg">
-          <div class="testimonials-slider pt-140 pb-140">
-            <ul class="slides">
-              <li>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="module-icon"><span class="icon-quote"></span></div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</blockquote>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4">
-                      <div class="testimonial-author">
-                        <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Jack Woods</div>
-                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="module-icon"><span class="icon-quote"></span></div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</blockquote>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4">
-                      <div class="testimonial-author">
-                        <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Jim Stone</div>
-                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="module-icon"><span class="icon-quote"></span></div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</blockquote>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4">
-                      <div class="testimonial-author">
-                        <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Adele Snow</div>
-                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="module" id="news">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Latest blog posts</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
-              </div>
-            </div>
-            <div class="row multi-columns-row post-columns">
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Our Recent Lighting Project</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Salman</a>&nbsp;| 23 November | 3 Comments
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">The Mehandi Designs</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Shilpa</a>&nbsp;| 11 November | 4 Comments
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Desi Food Taste</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Kapoor</a>&nbsp;| 5 November | 15 Comments
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="module-small bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
-                <div class="callout-text font-alt">
-                  <h3 class="callout-title">Subscribe now</h3>
-                  <p>We will not spam your email.</p>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="callout-btn-box">
-                  <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
-                    <div class="input-group">
-                      <input class="form-control" type="email" id="semail" name="semail" placeholder="Your Email" data-validation-required-message="Please enter your email address." required="required"/><span class="input-group-btn">
-                        <button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Submit</button></span>
-                    </div>
-                  </form>
-                  <div class="text-center" id="subscription-response"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <section class="module" id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Get in touch</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <form id="contactForm" role="form" method="post" action="php/contact.php">
-                  <div class="form-group">
-                    <label class="sr-only" for="name">Name</label>
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="email">Email</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address."/>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="text-center">
-                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
-                  </div>
-                </form>
-                <div class="ajax-response font-alt" id="contactFormResponse"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="module-small bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">About Lavish</h5>
-                  <p>ipsum imperdiet dapibus molestie maecenas ultrices accumsan ultricies, sagittis taciti ad lacus odio donec hac, egestas cras porttitor platea habitant dol</p>
-                  <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
-                  <p>Email:<a href="mailto:party@lavisheventsdesigns.com">party@lavisheventsdesigns.com</a></p>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">Recent Comments</h5>
-                  <ul class="icon-list">
-                    <li>Saleem on <a href="#">Makeup and Skin Care</a></li>
-                    <li>Raj on <a href="#">Wedding Photography</a></li>
-                    <li>Shankar on <a href="#">Food and Health</a></li>
-                    <li>Abdul on <a href="#">Floral Designs</a></li>
-                    <li>Shaik on <a href="#">Wedding Arrangements</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">Blog Categories</h5>
-                  <ul class="icon-list">
-                    <li><a href="#">Photography - 7</a></li>
-                    <li><a href="#">Bridal Makeup - 3</a></li>
-                    <li><a href="#">Music - 12</a></li>
-                    <li><a href="#">Floral Designing - 1</a></li>
-                    <li><a href="#">Food & Health - 16</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">Popular Posts</h5>
-                  <ul class="widget-posts">
-                    <li class="clearfix">
-                      <div class="widget-posts-image"><a href="#"><img src="/images/rp-1.jpg" alt="Post Thumbnail"/></a></div>
-                      <div class="widget-posts-body">
-                        <div class="widget-posts-title"><a href="#">Wedding Photography</a></div>
-                        <div class="widget-posts-meta">23 january</div>
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <div class="widget-posts-image"><a href="#"><img src="/images/rp-2.jpg" alt="Post Thumbnail"/></a></div>
-                      <div class="widget-posts-body">
-                        <div class="widget-posts-title"><a href="#">Natural Bridal Makeup</a></div>
-                        <div class="widget-posts-meta">15 February</div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="divider-d">
-        <footer class="footer bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">Lavish events and designs</a>, All Rights Reserved</p>
-              </div>
-              <div class="col-sm-6">
-                <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
-      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
-    </main>
-    <!--
-    JavaScripts
-    =============================================
-    -->
-    <script src="/lib/jquery/dist/jquery.js"></script>
-    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/lib/wow/dist/wow.js"></script>
-    <script src="/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-    <script src="/lib/isotope/dist/isotope.pkgd.js"></script>
-    <script src="/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="/lib/flexslider/jquery.flexslider.js"></script>
-    <script src="/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="/lib/smoothscroll.js"></script>
-    <script src="/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-    <script src="/js/plugins.js"></script>
-    <script src="/js/main.js"></script>
-    <style>
+      <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+        <li class="work-item illustration webdesign"><a href="#">
+            <div class="work-image"><img src="/images/portfolio/grid-portfolio1.jpg" alt="Portfolio Item"/></div>
+            <div class="work-caption font-alt">
+              <h3 class="work-title">Car Wash</h3>
+              <div class="work-descr">Foam Wash</div>
+            </div></a></li>
+        <li class="work-item webdesign"><a href="#">
+            <div class="work-image"><img src="/images/portfolio/grid-portfolio2.jpg" alt="Portfolio Item"/></div>
+            <div class="work-caption font-alt">
+              <h3 class="work-title">Car Wash </h3>
+              <div class="work-descr">Car Shower</div>
+            </div></a></li>
+        <li class="work-item webdesign " ><a href="#">
+            <div class="work-image"><img src="/images/portfolio/grid-portfolio3.jpg" alt="Portfolio Item"/></div>
+            <div class="work-caption font-alt">
+              <h3 class="work-title">Car Wash</h3>
+              <div class="work-descr">Interior Cleaning</div>
+            </div></a></li>
+        <li class="work-item illustration photography"><a href="#">
+            <div class="work-image"><img src="/images/portfolio/grid-portfolio4.jpg" alt="Portfolio Item"/></div>
+            <div class="work-caption font-alt">
+              <h3 class="work-title">Car Wash</h3>
+              <div class="work-descr">Polishing</div>
+            </div></a></li>
+        <li class="work-item illustration photography"><a href="#">
+            <div class="work-image"><img src="/images/portfolio/grid-portfolio5.jpg" alt="Portfolio Item"/></div>
+            <div class="work-caption font-alt">
+              <h3 class="work-title">Car Wash</h3>
+              <div class="work-descr">Automatic Car Wash</div>
+            </div></a></li>
+        <li class="work-item photography"><a href="#">
+            <div class="work-image"><img src="/images/portfolio/grid-portfolio6.jpg" alt="Portfolio Item"/></div>
+            <div class="work-caption font-alt">
+              <h3 class="work-title">Car Wash</h3>
+              <div class="work-descr">Manual Car Wash</div>
+            </div></a></li>
+      </ul>
+    </section>
+    <section class="module-small bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+            <div class="callout-text font-alt">
+              <h3 class="callout-title">Want to see more works?</h3>
+              <p>We are always open to interesting projects.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="callout-btn-box"><a class="btn btn-w btn-round" href="#">Lets view portfolio</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      .navbar-nav {background: rgba(0,0,0,0.4); padding : 0 15px;}
+    <hr class="divider-w">
+    <!-- <section class="module" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h2 class="module-title font-alt">Meet Our Team</h2>
+            <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+            <div class="team-item">
+              <div class="team-image"><img src="/images/team-1.jpg" alt="Member Photo"/>
+                <div class="team-detail">
+                  <h5 class="font-alt">Hi all</h5>
+                  <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
+                  <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                </div>
+              </div>
+              <div class="team-descr font-alt">
+                <div class="team-name">Team Member Name</div>
+                <div class="team-role">Automatic Car Wash Operator</div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+            <div class="team-item">
+              <div class="team-image"><img src="/images/team-2.jpg" alt="Member Photo"/>
+                <div class="team-detail">
+                  <h5 class="font-alt">Good day</h5>
+                  <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
+                  <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                </div>
+              </div>
+              <div class="team-descr font-alt">
+                <div class="team-name">Team Member Name</div>
+                <div class="team-role">Interior Cleaning Expert</div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+            <div class="team-item">
+              <div class="team-image"><img src="/images/team-3.jpg" alt="Member Photo"/>
+                <div class="team-detail">
+                  <h5 class="font-alt">Hello</h5>
+                  <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
+                  <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                </div>
+              </div>
+              <div class="team-descr font-alt">
+                <div class="team-name">Team Member Name</div>
+                <div class="team-role">Foam Wash Expert</div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+            <div class="team-item">
+              <div class="team-image"><img src="/images/team-4.jpg" alt="Member Photo"/>
+                <div class="team-detail">
+                  <h5 class="font-alt">Yes, it's me</h5>
+                  <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
+                  <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                </div>
+              </div>
+              <div class="team-descr font-alt">
+                <div class="team-name">Team Member Name</div>
+                <div class="team-role">Polishing Expert</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="/images/testimonial_bg.jpg">
+      <div class="testimonials-slider pt-140 pb-140">
+        <ul class="slides">
+          <li>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="module-icon"><span class="icon-quote"></span></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <blockquote class="testimonial-text font-alt">I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</blockquote>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                  <div class="testimonial-author">
+                    <div class="testimonial-caption font-alt">
+                      <div class="testimonial-title">Jack Woods</div>
+                      <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="module-icon"><span class="icon-quote"></span></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <blockquote class="testimonial-text font-alt">I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</blockquote>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                  <div class="testimonial-author">
+                    <div class="testimonial-caption font-alt">
+                      <div class="testimonial-title">Jim Stone</div>
+                      <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="module-icon"><span class="icon-quote"></span></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <blockquote class="testimonial-text font-alt">I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</blockquote>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                  <div class="testimonial-author">
+                    <div class="testimonial-caption font-alt">
+                      <div class="testimonial-title">Adele Snow</div>
+                      <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="module" id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h2 class="module-title font-alt">Latest blog posts</h2>
+            <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+          </div>
+        </div>
+        <div class="row multi-columns-row post-columns">
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="post mb-20">
+              <div class="post-thumbnail"><a href="#"><img src="/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
+              <div class="post-header font-alt">
+                <h2 class="post-title"><a href="#">Car safety is very important</a></h2>
+                <div class="post-meta">By&nbsp;<a href="#">Salman</a>&nbsp;| 23 November | 3 Comments
+                </div>
+              </div>
+              <div class="post-entry">
+                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+              </div>
+              <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="post mb-20">
+              <div class="post-thumbnail"><a href="#"><img src="/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
+              <div class="post-header font-alt">
+                <h2 class="post-title"><a href="#">Why we need regular car wash</a></h2>
+                <div class="post-meta">By&nbsp;<a href="#">Shilpa</a>&nbsp;| 11 November | 4 Comments
+                </div>
+              </div>
+              <div class="post-entry">
+                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+              </div>
+              <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="post mb-20">
+              <div class="post-thumbnail"><a href="#"><img src="/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
+              <div class="post-header font-alt">
+                <h2 class="post-title"><a href="#">24/7 Service center</a></h2>
+                <div class="post-meta">By&nbsp;<a href="#">Kapoor</a>&nbsp;| 5 November | 15 Comments
+                </div>
+              </div>
+              <div class="post-entry">
+                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+              </div>
+              <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="module-small bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
+            <div class="callout-text font-alt">
+              <h3 class="callout-title">Subscribe now</h3>
+              <p>We will not spam your email.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="callout-btn-box">
+              <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
+                <div class="input-group">
+                  <input class="form-control" type="email" id="semail" name="semail" placeholder="Your Email" data-validation-required-message="Please enter your email address." required="required"/><span class="input-group-btn">
+                    <button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Submit</button></span>
+                </div>
+              </form>
+              <div class="text-center" id="subscription-response"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="module" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h2 class="module-title font-alt">Get in touch</h2>
+            <div class="module-subtitle font-serif"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <form id="contactForm" role="form" method="post" action="php/contact.php">
+              <div class="form-group">
+                <label class="sr-only" for="name">Name</label>
+                <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="email">Email</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address."/>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+              </div>
+            </form>
+            <div class="ajax-response font-alt" id="contactFormResponse"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="module-small bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="widget">
+              <h5 class="widget-title font-alt">About Skokie Car Wash</h5>
+              <p>lorem ipsum imperdiet dapibus molestie maecenas ultrices accumsan ultricies, sagittis taciti ad lacus odio donec hac, egestas cras porttitor platea habitant dol</p>
+              <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
+              <p>Email:<a href="mailto:info@skokiecarwash.com"> info@skokiecarwash.com</a></p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="widget">
+              <h5 class="widget-title font-alt">Recent Comments</h5>
+              <ul class="icon-list">
+                <li>Saleem on <a href="#">Car Wash</a></li>
+                <li>Raj on <a href="#">Foam Wash</a></li>
+                <li>Shankar on <a href="#">Windows Cleaning</a></li>
+                <li>Abdul on <a href="#">Car wash products</a></li>
+                <li>Shaik on <a href="#">Materials</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="widget">
+              <h5 class="widget-title font-alt">Blog Categories</h5>
+              <ul class="icon-list">
+                <li><a href="#">Interior Cleaning - 7</a></li>
+                <li><a href="#">Dust Proof Wheels - 3</a></li>
+                <li><a href="#">Water Wash - 12</a></li>
+                <li><a href="#">Automatic Car Wash - 1</a></li>
+                <li><a href="#">Glass Cleaning - 16</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="widget">
+              <h5 class="widget-title font-alt">Popular Posts</h5>
+              <ul class="widget-posts">
+                <li class="clearfix">
+                  <div class="widget-posts-image"><a href="#"><img src="/images/rp-1.jpg" alt="Post Thumbnail"/></a></div>
+                  <div class="widget-posts-body">
+                    <div class="widget-posts-title"><a href="#">Car Wash Scrubbers</a></div>
+                    <div class="widget-posts-meta">23 january</div>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <div class="widget-posts-image"><a href="#"><img src="/images/rp-2.jpg" alt="Post Thumbnail"/></a></div>
+                  <div class="widget-posts-body">
+                    <div class="widget-posts-title"><a href="#">Wheel Cleaning Techniques</a></div>
+                    <div class="widget-posts-meta">15 February</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="divider-d">
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">Skokie Car Wash</a>, All Rights Reserved</p>
+          </div>
+          <div class="col-sm-6">
+            <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+</main>
+<!--
+JavaScripts
+=============================================
+-->
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/lib/wow/dist/wow.js"></script>
+<script src="/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+<script src="/lib/isotope/dist/isotope.pkgd.js"></script>
+<script src="/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+<script src="/lib/flexslider/jquery.flexslider.js"></script>
+<script src="/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="/lib/smoothscroll.js"></script>
+<script src="/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+<script src="/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
+<style>
 
-      .navbar-fixed-top .navbar-brand img { width : 80px; }
+  .navbar-custom {background: rgba(5, 55, 149,1);}
 
-      .navbar-fixed-top .navbar-brand {padding : 10px 15px;}
+  .navbar-fixed-top.navbar-transparent { background: none; }
 
-      .navbar-fixed-top.navbar-transparent .navbar-brand img { width : 150px; }
+  .navbar-nav {background: rgba(5, 55, 149,0.4); padding : 0 15px;}
 
-      @media screen and (max-width : 767px){
+  .navbar-fixed-top .navbar-brand img { width : 80px; }
 
-        .navbar-fixed-top.navbar-transparent .navbar-brand img { width : 80px; }
+  .navbar-fixed-top .navbar-brand {padding : 2px 15px;}
 
-      }
+  .navbar-fixed-top.navbar-transparent .navbar-brand img { width : 150px; }
+
+  .btn.btn-border-w {background : rgba(5, 55, 149,1); color : #ffffff;}
+
+  @media screen and (max-width : 767px){
+
+    .navbar-fixed-top.navbar-transparent .navbar-brand img { width : 80px; }
+
+  }
 
 
-    </style>
+</style>
 
 
 {{ partial "footer" . }}
